@@ -7,7 +7,7 @@ const {Antiflood} = require('./functions/funcs')
 console.log('Ready');
 
 client.on("message", async message => {
-    let af = Antiflood(message)
+    var af = Antiflood(message)
     if (af == true) {
         console.log("ANTI FLOOD")
     } else {
