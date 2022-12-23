@@ -1,4 +1,4 @@
-const Antiflood = async (message) => {
+const Antiflood = message => {
     var date_time = new Date()
     
     let date = ("0" + date_time.getDate()).slice(-2);
